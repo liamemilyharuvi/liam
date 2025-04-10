@@ -29,12 +29,13 @@
       padding: 10px;
       border-radius: 6px;
       border: 1px solid #ccc;
+      box-sizing: border-box;
     }
     input[type="checkbox"], input[type="radio"] {
       margin-left: 10px;
     }
     button {
-      margin-top: 20px;
+      margin-top: 40px;
       background-color: #4CAF50;
       color: white;
       padding: 12px 24px;
@@ -42,6 +43,8 @@
       border-radius: 6px;
       cursor: pointer;
       font-size: 16px;
+      display: block;
+      width: 100%;
     }
     button:hover {
       background-color: #45a049;
@@ -69,7 +72,8 @@
     <input type="checkbox" name="audience[]" value="בני נוער"> בני נוער<br>
     <input type="checkbox" name="audience[]" value="נשים בגילאי 20-30"> נשים בגילאי 20-30<br>
     <input type="checkbox" name="audience[]" value="יוצרי תוכן"> יוצרי תוכן<br>
-    <input type="checkbox" name="audience[]" value="חובבי טיפוח / אוכל / אופנה / ספורט"> חובבי טיפוח / אוכל / אופנה / ספורט
+    <input type="checkbox" name="audience[]" value="חובבי טיפוח / אוכל / אופנה / ספורט"> חובבי טיפוח / אוכל / אופנה / ספורט<br>
+    <input type="text" name="audience_custom" placeholder="או תכתבי כאן תיאור אישי של הקהל שלך">
 
     <label>4. איך בא לך שהטרנד ירגיש?</label>
     <input type="checkbox" name="tone[]" value="מצחיק"> מצחיק<br>
